@@ -8,3 +8,4 @@ Frontend update 07
 Frontend update 08
 Frontend update 09
 Frontend update 10
+Frontend update 11
