@@ -1,0 +1,4 @@
+/* Minimal globals copied from original project */
+@import "tailwindcss";
+
+body { margin: 0 }
