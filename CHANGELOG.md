@@ -26,3 +26,4 @@ Frontend update 06
 Frontend update 07
 Frontend update 08
 Frontend update 09
+Frontend update 10
