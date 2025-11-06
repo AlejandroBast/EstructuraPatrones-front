@@ -23,3 +23,4 @@ Frontend update 03
 Frontend update 04
 Frontend update 05
 Frontend update 06
+Frontend update 07
