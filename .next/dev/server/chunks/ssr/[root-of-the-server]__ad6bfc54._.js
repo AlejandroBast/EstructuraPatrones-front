@@ -213,10 +213,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrone
 ;
 function Page() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-background",
+        className: "min-h-screen bg-black text-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "border-b border-border",
+                className: "border-b border-gray-800",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 py-4 flex items-center justify-between",
                     children: [
@@ -224,14 +224,14 @@ function Page() {
                             className: "flex items-center gap-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wallet$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__["Wallet"], {
-                                    className: "w-8 h-8 text-primary"
+                                    className: "w-8 h-8 text-indigo-500"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                     lineNumber: 13,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-xl font-bold",
+                                    className: "text-3xl font-extrabold text-white",
                                     children: "Asistente Financiero"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -252,6 +252,7 @@ function Page() {
                                     asChild: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/login",
+                                        className: "text-gray-300 hover:text-white font-semibold",
                                         children: "Iniciar Sesión"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -267,6 +268,7 @@ function Page() {
                                     asChild: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/register",
+                                        className: "text-indigo-500 hover:text-white font-semibold",
                                         children: "Registrarse"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -301,11 +303,11 @@ function Page() {
                     className: "max-w-3xl mx-auto space-y-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-5xl font-bold text-balance",
+                            className: "text-5xl font-extrabold text-white",
                             children: [
                                 "Controla tus finanzas con ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-primary",
+                                    className: "text-indigo-500",
                                     children: "inteligencia artificial"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -319,7 +321,7 @@ function Page() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xl text-muted-foreground text-pretty",
+                            className: "text-xl text-gray-300",
                             children: "Registra tus ingresos y gastos, obtén recomendaciones personalizadas y alcanza tus metas financieras de forma simple y efectiva."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -334,6 +336,7 @@ function Page() {
                                     asChild: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/register",
+                                        className: "text-indigo-500 font-bold",
                                         children: "Comenzar Gratis"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -351,6 +354,7 @@ function Page() {
                                     asChild: true,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/login",
+                                        className: "text-gray-300 hover:text-white font-bold",
                                         children: "Ya tengo cuenta"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -383,7 +387,7 @@ function Page() {
                 className: "container mx-auto px-4 py-16",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-3xl font-bold text-center mb-12",
+                        className: "text-3xl font-extrabold text-center mb-12 text-white",
                         children: "¿Qué puedes hacer?"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -391,17 +395,17 @@ function Page() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6",
+                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "border-border",
+                                className: "bg-gray-800 border-2 border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-gray-700/80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "pt-6 space-y-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-3 bg-primary/10 rounded-lg w-fit",
+                                            className: "p-3 bg-gray-700/20 rounded-lg w-fit",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"], {
-                                                className: "w-6 h-6 text-primary"
+                                                className: "w-6 h-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                                 lineNumber: 55,
@@ -413,7 +417,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold",
+                                            className: "text-xl font-semibold text-white",
                                             children: "Registra tus Ingresos"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -421,7 +425,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-muted-foreground",
+                                            className: "text-gray-300",
                                             children: "Lleva un control detallado de todos tus ingresos con fecha, monto y descripción."
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -440,14 +444,14 @@ function Page() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "border-border",
+                                className: "bg-gray-800 border-2 border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-gray-700/80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "pt-6 space-y-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-3 bg-primary/10 rounded-lg w-fit",
+                                            className: "p-3 bg-gray-700/20 rounded-lg w-fit",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$pie$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__PieChart$3e$__["PieChart"], {
-                                                className: "w-6 h-6 text-primary"
+                                                className: "w-6 h-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                                 lineNumber: 67,
@@ -459,7 +463,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold",
+                                            className: "text-xl font-semibold text-white",
                                             children: "Categoriza Gastos"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -467,7 +471,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-muted-foreground",
+                                            className: "text-gray-300",
                                             children: "Organiza tus gastos en categorías fijas y variables con opciones de recurrencia."
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -486,14 +490,14 @@ function Page() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "border-border",
+                                className: "bg-gray-800 border-2 border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-gray-700/80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "pt-6 space-y-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-3 bg-primary/10 rounded-lg w-fit",
+                                            className: "p-3 bg-gray-700/20 rounded-lg w-fit",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wallet$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__["Wallet"], {
-                                                className: "w-6 h-6 text-primary"
+                                                className: "w-6 h-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                                 lineNumber: 79,
@@ -505,7 +509,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold",
+                                            className: "text-xl font-semibold text-white",
                                             children: "Control de Microgastos"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -513,7 +517,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-muted-foreground",
+                                            className: "text-gray-300",
                                             children: "Registra pequeños gastos diarios y establece límites para evitar fugas de dinero."
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -532,14 +536,14 @@ function Page() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "border-border",
+                                className: "bg-gray-800 border-2 border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-gray-700/80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "pt-6 space-y-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-3 bg-primary/10 rounded-lg w-fit",
+                                            className: "p-3 bg-gray-700/20 rounded-lg w-fit",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__["Brain"], {
-                                                className: "w-6 h-6 text-primary"
+                                                className: "w-6 h-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                                 lineNumber: 91,
@@ -551,7 +555,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold",
+                                            className: "text-xl font-semibold text-white",
                                             children: "Recomendaciones IA"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -559,7 +563,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-muted-foreground",
+                                            className: "text-gray-300",
                                             children: "Recibe sugerencias personalizadas para mejorar tus hábitos financieros y ahorrar más."
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -578,14 +582,14 @@ function Page() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "border-border",
+                                className: "bg-gray-800 border-2 border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-gray-700/80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "pt-6 space-y-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-3 bg-primary/10 rounded-lg w-fit",
+                                            className: "p-3 bg-gray-700/20 rounded-lg w-fit",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
-                                                className: "w-6 h-6 text-primary"
+                                                className: "w-6 h-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                                 lineNumber: 103,
@@ -597,7 +601,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold",
+                                            className: "text-xl font-semibold text-white",
                                             children: "Datos Seguros"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -605,7 +609,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-muted-foreground",
+                                            className: "text-gray-300",
                                             children: "Tu información financiera está protegida con encriptación y control total sobre tus datos."
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -624,14 +628,14 @@ function Page() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "border-border",
+                                className: "bg-gray-800 border-2 border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:bg-gray-700/80",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "pt-6 space-y-3",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-3 bg-primary/10 rounded-lg w-fit",
+                                            className: "p-3 bg-gray-700/20 rounded-lg w-fit",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$smartphone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Smartphone$3e$__["Smartphone"], {
-                                                className: "w-6 h-6 text-primary"
+                                                className: "w-6 h-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
                                                 lineNumber: 115,
@@ -643,7 +647,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold",
+                                            className: "text-xl font-semibold text-white",
                                             children: "Diseño Responsive"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -651,7 +655,7 @@ function Page() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-muted-foreground",
+                                            className: "text-gray-300",
                                             children: "Accede desde cualquier dispositivo: computadora, tablet o móvil con la misma experiencia."
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -684,12 +688,12 @@ function Page() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "container mx-auto px-4 py-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                    className: "border-border bg-primary/5",
+                    className: "bg-indigo-500/5 border-gray-700 backdrop-blur-lg shadow-2xl",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                         className: "py-16 text-center space-y-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-3xl font-bold",
+                                className: "text-3xl font-extrabold text-white",
                                 children: "Comienza a tomar control de tu dinero hoy"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -697,7 +701,7 @@ function Page() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg text-muted-foreground max-w-2xl mx-auto",
+                                className: "text-lg text-gray-400 max-w-2xl mx-auto",
                                 children: "Únete a miles de usuarios que ya están mejorando sus finanzas personales con nuestro asistente inteligente."
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -709,6 +713,7 @@ function Page() {
                                 asChild: true,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/register",
+                                    className: "text-dark font-bold",
                                     children: "Crear Cuenta Gratis"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/page.tsx",
@@ -737,9 +742,9 @@ function Page() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "border-t border-border",
+                className: "border-t border-gray-800",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "container mx-auto px-4 py-8 text-center text-sm text-muted-foreground",
+                    className: "container mx-auto px-4 py-8 text-center text-sm text-gray-400",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Frontenn__Patrones__de__sftwr$2f$EstructuraPatrones$2d$front$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Asistente Financiero - Tu aliado para alcanzar la libertad financiera"
                     }, void 0, false, {
