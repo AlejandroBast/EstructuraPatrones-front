@@ -1,0 +1,393 @@
+[00:00:02.040] Server  LOG      ✓ Ready in 1505ms
+[00:00:06.208] Server  LOG      ○ Compiling / ...
+[00:00:08.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.181] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:08.181] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:08.181] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763024616505}
+[00:00:10.215] Server  ERROR    ⨯ ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+
+
+[00:00:10.335] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:10.981] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:10.981] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:11.513] Server  ERROR    ⨯ ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+
+
+[00:00:11.797] Browser ERROR   uncaughtError: Error: ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+
+
+[00:00:11.968] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:11.968] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:23.478] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:27.480] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:31.224] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:00:31.459] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:00:31.661] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/register/page"
+[00:00:42.480] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:48.479] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+[00:00:49.659] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:00:49.928] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:00:50.153] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/register/page"
+[00:01:02.955] Server  LOG      ✓ Compiled in 152ms
+[00:01:03.413] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:01:03.682] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:01:03.837] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/register/page"
+[00:01:07.321] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:01:07.623] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:01:07.839] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/register/page"
+[00:01:08.838] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:01:09.168] Server  ERROR    ⨯ Error: The default export is not a React Component in "/register/page"
+[00:01:09.361] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/register/page"
+[00:02:27.481] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:2:5
+Parsing ecmascript source code failed
+  1 | mike
+> 2 | mike.7651
+    |     ^^^^^
+  3 | Visual Studio Code
+  4 | +2
+  5 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Client Component Browser]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Client Component SSR]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Server Component]
+[00:02:29.996] Server  LOG      ✓ Compiled in 92ms
+[00:02:30.508] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:31.479] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:31.479] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/register","route":"/register"}
+[00:02:31.479] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763024759032}
+[00:03:02.077] Server  LOG      ✓ Compiled in 97ms
+[00:03:02.480] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:5:1
+Export RegisterForm doesn't exist in target module
+  3 | import { useEffect } from "react"
+  4 | import { useRouter } from "next/navigation"
+> 5 | import { RegisterForm } from "@/components/register-form"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Link from "next/link"
+  7 | import { ArrowLeft } from "lucide-react"
+  8 |
+
+The export RegisterForm was not found in module [project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/components/register-form.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Client Component Browser]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Client Component SSR]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Server Component]
+[00:03:02.480] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx:5:1
+Export RegisterForm doesn't exist in target module
+  3 | import { useEffect } from "react"
+  4 | import { useRouter } from "next/navigation"
+> 5 | import { RegisterForm } from "@/components/register-form"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Link from "next/link"
+  7 | import { ArrowLeft } from "lucide-react"
+  8 |
+
+The export RegisterForm was not found in module [project]/Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/components/register-form.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Client Component Browser]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Client Component SSR]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/register/page.tsx [Server Component]
+[00:03:03.925] Server  LOG      ✓ Compiled in 81ms
+[00:03:32.063] Server  LOG      ✓ Compiled in 71ms
+[00:03:36.451] Server  LOG      ✓ Compiled in 53ms
+[00:03:39.117] Server  LOG      ✓ Compiled in 124ms
+[00:06:26.988] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763024995307}
+[00:06:28.782] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763024997104}
+[00:08:13.517] Server  LOG      ✓ Compiled in 95ms
+[00:08:13.785] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx:54:6
+Parsing ecmascript source code failed
+  52 |         </div>
+  53 |       </div>
+> 54 |     </div>
+     |      ^^^^^
+  55 |   )
+  56 | }
+  57 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Client Component Browser]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Client Component SSR]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Server Component]
+[00:08:17.479] Browser ERROR   ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx:54:6
+Parsing ecmascript source code failed
+  52 |         </div>
+  53 |       </div>
+> 54 |     </div>
+     |      ^^^^^
+  55 |   )
+  56 | }
+  57 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Client Component Browser]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Client Component SSR]
+    ./Desktop/Frontenn Patrones de sftwr/EstructuraPatrones-front/app/login/page.tsx [Server Component]
+[00:10:56.231] Server  LOG      ✓ Compiled in 69ms
+[00:11:05.799] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025274123}
+[00:11:07.246] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025275570}
+[00:11:11.682] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025280006}
+[00:13:39.861] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025428183}
+[00:13:42.469] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025430792}
+[00:13:43.564] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025431888}
+[00:13:45.021] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025433342}
+[00:13:46.182] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025434506}
+[00:13:47.767] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025436091}
+[00:17:37.686] Server  LOG      ✓ Compiled in 402ms
+[00:17:50.062] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025678384}
+[00:17:51.478] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025679798}
+[00:18:33.602] Server  LOG      ✓ Compiled in 115ms
+[00:18:34.482] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"/", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/F...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="es" className="dark">
+>                         {"  "}
+                          ...
+                  ...
+
+[00:18:34.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025722763}
+[00:18:34.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025722765}
+[00:19:39.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:39.803] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/F...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="es" className="dark">
+>                         {"  "}
+                          ...
+                  ...
+
+[00:19:39.803] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:39.803] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:39.803] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025788128}
+[00:19:44.003] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025792325}
+[00:19:46.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:46.457] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/F...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="es" className="dark">
+>                         {"  "}
+                          ...
+                  ...
+
+[00:19:46.458] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:46.458] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:19:46.458] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025794780}
+[00:19:48.014] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025796335}
+[00:19:57.487] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025805635}
+[00:19:57.487] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025805637}
+[00:20:32.580] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025840903}
+[00:21:42.686] Server  LOG      ✓ Compiled in 103ms
+[00:21:47.900] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025916224}
+[00:21:52.195] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025920517}
+[00:21:53.781] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763025922106}
+[00:25:39.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:39.797] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:25:39.797] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:25:39.797] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026148121}
+[00:25:41.225] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026149548}
+[00:25:43.174] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026151496}
+[00:25:44.462] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026152785}
+[00:25:46.347] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026154671}
+[00:25:51.920] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026160243}
+[00:25:53.654] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026161978}
+[00:28:46.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:46.474] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:28:46.474] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:28:46.474] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026334800}
+[00:29:07.974] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026356295}
+[00:29:09.587] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026357913}
+[00:29:12.705] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026361028}
+[00:29:17.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:18.145] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:18.145] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/register","route":"/register"}
+[00:29:18.145] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1763026366470}

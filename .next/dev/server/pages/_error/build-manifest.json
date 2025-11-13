@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_error": [
+      "static/chunks/423d2_next_dist_compiled_78f60e7f._.js",
+      "static/chunks/423d2_next_dist_shared_lib_960446e0._.js",
+      "static/chunks/423d2_next_dist_client_9dc8dd70._.js",
+      "static/chunks/423d2_next_dist_3fef8eae._.js",
+      "static/chunks/423d2_next_error_325a6790.js",
+      "static/chunks/[next]_entry_page-loader_ts_c2f3db95._.js",
+      "static/chunks/423d2_react-dom_c71000f0._.js",
+      "static/chunks/423d2_2ce3c4e3._.js",
+      "static/chunks/[root-of-the-server]__1c589bfe._.js",
+      "static/chunks/3d860_Frontenn Patrones de sftwr_EstructuraPatrones-front_pages__error_2da965e7._.js",
+      "static/chunks/88e7d_Frontenn Patrones de sftwr_EstructuraPatrones-front_pages__error_109fb8cf._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

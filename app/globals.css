@@ -3,6 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Definición de Variables Globales (Root) */
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -39,6 +40,7 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+/* Definición de Modo Oscuro */
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -74,11 +76,8 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
+/* Definición de Tema Inline (para Financial Theme) */
 @theme inline {
-  --font-sans: "Geist", "Geist Fallback";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
-
-  /* Dark mode color scheme with financial theme */
   --background: 222.2 84% 4.9%;
   --foreground: 210 40% 98%;
   --card: 222.2 47.4% 11.2%;
@@ -142,6 +141,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* Estilos Base para la Página */
 @layer base {
   * {
     @apply border-border outline-ring/50;

@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -50,26 +49,38 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
   }
 
   return (
-    <Card className="border-border">
-      <CardHeader className="space-y-1 text-center">
-        <div className="flex justify-center mb-2">
-          <div className="p-3 bg-primary/10 rounded-full">
-            <Wallet className="w-8 h-8 text-primary" />
+    <Card className="relative overflow-hidden border-none shadow-2xl bg-gradient-to-br from-primary/5 via-background to-background backdrop-blur-xl rounded-2xl transition-all duration-300 hover:shadow-primary/30 hover:scale-[1.02]">
+      {/* Efecto decorativo con gradiente animado */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-accent/10 opacity-70 animate-pulse" />
+
+      <CardHeader className="space-y-1 text-center relative z-10">
+        <div className="flex justify-center mb-3">
+          <div className="p-4 rounded-full bg-gradient-to-r from-primary/20 to-primary/40 shadow-inner animate-fade-in">
+            <Wallet className="w-8 h-8 text-primary animate-bounce-slow" />
           </div>
         </div>
-        <CardTitle className="text-2xl font-bold">Asistente Financiero</CardTitle>
-        <CardDescription>Ingresa tus credenciales para acceder a tu dashboard</CardDescription>
+        <CardTitle className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          Iniciar sesión
+        </CardTitle>
+        <CardDescription className="text-muted-foreground text-sm">
+          Ingresa tus credenciales para acceder a tu dashboard
+        </CardDescription>
       </CardHeader>
+
       <form onSubmit={handleSubmit}>
-        <CardContent className="space-y-4">
+        <CardContent className="space-y-5 relative z-10">
           {error && (
-            <Alert variant="destructive">
+            <Alert variant="destructive" className="animate-shake border-l-4 border-red-500">
               <AlertCircle className="h-4 w-4" />
               <AlertDescription>{error}</AlertDescription>
             </Alert>
           )}
+
+          {/* Email */}
           <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email" className="text-foreground font-semibold">
+              Correo electrónico
+            </Label>
             <Input
               id="email"
               type="email"
@@ -78,10 +89,15 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
               onChange={(e) => setEmail(e.target.value)}
               required
               disabled={loading}
+              className="rounded-xl border border-border/60 bg-background/80 focus:border-primary focus:ring-2 focus:ring-primary/40 transition-all duration-300 hover:border-primary/60"
             />
           </div>
+
+          {/* Contraseña */}
           <div className="space-y-2">
-            <Label htmlFor="password">Contraseña</Label>
+            <Label htmlFor="password" className="text-foreground font-semibold">
+              Contraseña
+            </Label>
             <Input
               id="password"
               type="password"
@@ -90,13 +106,20 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
               onChange={(e) => setPassword(e.target.value)}
               required
               disabled={loading}
+              className="rounded-xl border border-border/60 bg-background/80 focus:border-primary focus:ring-2 focus:ring-primary/40 transition-all duration-300 hover:border-primary/60"
             />
           </div>
         </CardContent>
-        <CardFooter className="flex flex-col gap-4">
-          <Button type="submit" className="w-full" disabled={loading}>
+
+        <CardFooter className="flex flex-col gap-4 relative z-10">
+          <Button
+            type="submit"
+            className="w-full mt-6 py-2 rounded-xl text-white font-semibold bg-gradient-to-r from-primary to-accent shadow-md hover:shadow-xl hover:opacity-90 transition-all duration-300"
+            disabled={loading}
+          >
             {loading ? "Iniciando sesión..." : "Iniciar Sesión"}
           </Button>
+
           <div className="text-sm text-center text-muted-foreground">
             ¿No tienes cuenta?{" "}
             <Link href="/register" className="text-primary hover:underline font-medium">
