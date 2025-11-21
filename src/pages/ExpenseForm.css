@@ -1,0 +1,219 @@
+/* Distribución moderna de gastos */
+.expense-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  background: transparent;
+}
+
+.expense-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.expense-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.expense-subtitle {
+  color: #a0aec0;
+  font-size: 1.1rem;
+}
+
+.expense-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 968px) {
+  .expense-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.expense-card {
+  height: 100%;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.select-category {
+  cursor: pointer;
+}
+
+.checkbox-group {
+  padding: 1rem;
+  background: rgba(30, 41, 59, 0.3);
+  border-radius: 8px;
+  border: 1px solid rgba(71, 85, 105, 0.5);
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.75rem;
+  cursor: pointer;
+  accent-color: #8b5cf6;
+}
+
+.checkbox-text {
+  color: #e2e8f0;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.expense-total {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(220, 38, 38, 0.2));
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.total-label {
+  color: #fca5a5;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.total-amount {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.expense-list {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.expense-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(71, 85, 105, 0.5);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.expense-item:hover {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(239, 68, 68, 0.5);
+  transform: translateX(4px);
+}
+
+.expense-icon {
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(71, 85, 105, 0.3);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.expense-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.expense-desc {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.recurring-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  border-radius: 6px;
+  font-size: 0.75rem;
+  color: #c4b5fd;
+  font-weight: 500;
+}
+
+.expense-meta {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.expense-amount {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.expense-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.expense-list::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.5);
+  border-radius: 4px;
+}
+
+.expense-list::-webkit-scrollbar-thumb {
+  background: rgba(239, 68, 68, 0.5);
+  border-radius: 4px;
+}
+
+.expense-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(239, 68, 68, 0.7);
+}
