@@ -29,66 +29,14 @@ export default function Inicio() {
         </div>
       </div>
 
-      {/* Features Section */}
-      <section className="features-section">
+      {/* Benefits Section - Movida antes de Features */}
+      <section className="benefits-section">
         <div className="section-header">
-          <h2 className="section-title">¿Qué puedes hacer?</h2>
+          <h2 className="section-title">¿Por qué elegirnos?</h2>
           <p className="section-subtitle">
-            Herramientas inteligentes para gestionar tus finanzas personales de manera eficiente
+            Beneficios que transformarán tu manera de gestionar el dinero
           </p>
         </div>
-        
-        <div className="features-grid">
-          {[
-            {
-              title: 'Registra tus Ingresos',
-              desc: 'Lleva un control detallado de todos tus ingresos con fecha, monto y descripción.',
-              icon: '💰',
-              color: 'green'
-            },
-            {
-              title: 'Categoriza Gastos',
-              desc: 'Organiza tus gastos en categorías fijas y variables con opciones de recurrencia.',
-              icon: '💸',
-              color: 'red'
-            },
-            {
-              title: 'Control de Microgastos',
-              desc: 'Registra pequeños gastos diarios y establece límites para evitar fugas de dinero.',
-              icon: '🔍',
-              color: 'blue'
-            },
-            {
-              title: 'Recomendaciones IA',
-              desc: 'Recibe sugerencias personalizadas para mejorar tus hábitos financieros y ahorrar más.',
-              icon: '🤖',
-              color: 'purple'
-            },
-            {
-              title: 'Datos Seguros',
-              desc: 'Tu información está protegida con encriptación y control total sobre tus datos.',
-              icon: '🔒',
-              color: 'amber'
-            },
-            {
-              title: 'Diseño Responsive',
-              desc: 'Accede desde cualquier dispositivo con la misma experiencia optimizada.',
-              icon: '📱',
-              color: 'indigo'
-            },
-          ].map((feature, index) => (
-            <div key={index} className={`feature-card feature-${feature.color}`}>
-              <div className="feature-icon">{feature.icon}</div>
-              <h3 className="feature-title">{feature.title}</h3>
-              <p className="feature-description">{feature.desc}</p>
-              <div className="feature-hover-effect"></div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="benefits-section">
         <div className="benefits-grid">
           <div className="benefit-card">
             <div className="benefit-header">
@@ -119,6 +67,63 @@ export default function Inicio() {
               Automatiza registros recurrentes y obtén insights instantáneos sin complicaciones.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Features Section - Reorganizada en 2 columnas */}
+      <section className="features-section">
+        <div className="section-header">
+          <h2 className="section-title">Funcionalidades principales</h2>
+          <p className="section-subtitle">
+            Todas las herramientas que necesitas en un solo lugar
+          </p>
+        </div>
+        
+        <div className="features-grid-alt">
+          {[
+            {
+              title: 'Control de Microgastos',
+              desc: 'Registra pequeños gastos diarios y establece límites para evitar fugas de dinero.',
+              icon: '🔍',
+              color: 'blue'
+            },
+            {
+              title: 'Recomendaciones IA',
+              desc: 'Recibe sugerencias personalizadas para mejorar tus hábitos financieros y ahorrar más.',
+              icon: '🤖',
+              color: 'purple'
+            },
+            {
+              title: 'Registra tus Ingresos',
+              desc: 'Lleva un control detallado de todos tus ingresos con fecha, monto y descripción.',
+              icon: '💰',
+              color: 'green'
+            },
+            {
+              title: 'Categoriza Gastos',
+              desc: 'Organiza tus gastos en categorías fijas y variables con opciones de recurrencia.',
+              icon: '💸',
+              color: 'red'
+            },
+            {
+              title: 'Datos Seguros',
+              desc: 'Tu información está protegida con encriptación y control total sobre tus datos.',
+              icon: '🔒',
+              color: 'amber'
+            },
+            {
+              title: 'Diseño Responsive',
+              desc: 'Accede desde cualquier dispositivo con la misma experiencia optimizada.',
+              icon: '📱',
+              color: 'indigo'
+            },
+          ].map((feature, index) => (
+            <div key={index} className={`feature-card-alt feature-${feature.color}`}>
+              <div className="feature-icon-large">{feature.icon}</div>
+              <h3 className="feature-title">{feature.title}</h3>
+              <p className="feature-description">{feature.desc}</p>
+            </div>
+          ))}
         </div>
       </section>
 
