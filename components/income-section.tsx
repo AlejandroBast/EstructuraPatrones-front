@@ -27,8 +27,28 @@ export function IncomeSection({ userId }: IncomeSectionProps) {
   }
 
   return (
-    <div className="grid gap-6 md:grid-cols-2">
-      <Card className="border-border">
+    <div className="space-y-6">
+      <div className="relative overflow-hidden rounded-xl border border-border bg-gradient-to-r from-purple-900/20 via-pink-900/20 to-purple-900/20 p-5">
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 via-pink-500/5 to-purple-500/5" />
+        <div className="relative z-10 flex items-center justify-between">
+          <div>
+            <h3 className="text-lg font-semibold flex items-center gap-2">
+              <TrendingUp className="w-5 h-5 text-purple-400" />
+              Panel de Ingresos
+            </h3>
+            <p className="text-sm text-muted-foreground">Registra y visualiza tus ingresos con estilo</p>
+          </div>
+          <div className="flex items-end gap-1 h-10">
+            <span className="w-2 h-4 bg-purple-400/60 rounded-sm animate-[pulse_1.4s_ease-in-out_infinite]" />
+            <span className="w-2 h-6 bg-pink-400/60 rounded-sm animate-[pulse_1.6s_ease-in-out_infinite]" />
+            <span className="w-2 h-5 bg-purple-400/60 rounded-sm animate-[pulse_1.8s_ease-in-out_infinite]" />
+            <span className="w-2 h-8 bg-pink-400/60 rounded-sm animate-[pulse_2s_ease-in-out_infinite]" />
+          </div>
+        </div>
+      </div>
+
+      <div className="grid gap-6 md:grid-cols-2">
+      <Card className="border-border transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Plus className="w-5 h-5" />
@@ -77,7 +97,7 @@ export function IncomeSection({ userId }: IncomeSectionProps) {
                 rows={3}
               />
             </div>
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-full transition-all duration-300 hover:scale-[1.01]">
               <Plus className="w-4 h-4 mr-2" />
               Agregar Ingreso
             </Button>
@@ -85,7 +105,7 @@ export function IncomeSection({ userId }: IncomeSectionProps) {
         </CardContent>
       </Card>
 
-      <Card className="border-border">
+      <Card className="border-border transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <TrendingUp className="w-5 h-5" />
@@ -103,7 +123,7 @@ export function IncomeSection({ userId }: IncomeSectionProps) {
             ].map((income) => (
               <div
                 key={income.id}
-                className="flex items-center justify-between p-3 rounded-lg border border-border bg-card/50"
+                className="flex items-center justify-between p-3 rounded-lg border border-border bg-card/50 transition-all duration-300 hover:bg-card/70 hover:translate-x-[2px]"
               >
                 <div className="flex-1">
                   <p className="font-medium">{income.description}</p>
@@ -115,8 +135,19 @@ export function IncomeSection({ userId }: IncomeSectionProps) {
               </div>
             ))}
           </div>
+          <div className="mt-6">
+            <svg viewBox="0 0 200 50" className="w-full h-12">
+              <polyline
+                points="0,40 20,35 40,30 60,25 80,28 100,20 120,24 140,18 160,22 180,16 200,20"
+                fill="none"
+                className="stroke-purple-400"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </CardContent>
       </Card>
+      </div>
     </div>
   )
 }

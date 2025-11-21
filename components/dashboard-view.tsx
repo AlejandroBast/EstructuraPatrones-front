@@ -59,9 +59,18 @@ export function DashboardView({ user, onLogout }: DashboardViewProps) {
               <LayoutDashboard className="w-4 h-4" />
               <span className="hidden sm:inline">Dashboard</span>
             </TabsTrigger>
-            <TabsTrigger value="income" className="flex items-center gap-2">
-              <TrendingUp className="w-4 h-4" />
+            <TabsTrigger
+              value="income"
+              className="relative flex items-center gap-2 overflow-hidden transition-all duration-300 hover:scale-[1.02] data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600/20 data-[state=active]:to-pink-600/20 data-[state=active]:text-foreground rounded-md"
+            >
+              <span className="absolute -left-6 top-1/2 -translate-y-1/2 w-24 h-24 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-full blur-xl pointer-events-none" />
+              <TrendingUp className="w-4 h-4 text-purple-400" />
               <span className="hidden sm:inline">Ingresos</span>
+              <span className="ml-auto hidden lg:flex items-end gap-[3px] h-4">
+                <span className="w-[3px] h-2 bg-purple-400/60 rounded-sm animate-[pulse_1.4s_ease-in-out_infinite]" />
+                <span className="w-[3px] h-3 bg-pink-400/60 rounded-sm animate-[pulse_1.6s_ease-in-out_infinite]" />
+                <span className="w-[3px] h-4 bg-purple-400/60 rounded-sm animate-[pulse_1.8s_ease-in-out_infinite]" />
+              </span>
             </TabsTrigger>
             <TabsTrigger value="expenses" className="flex items-center gap-2">
               <TrendingDown className="w-4 h-4" />
