@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { postJson } from '../api/client'
 
 export default function Login() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
+  const navigate = useNavigate()
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -16,7 +18,7 @@ export default function Login() {
       )
       localStorage.setItem('token', res.token)
       localStorage.setItem('username', res.username)
-      window.location.href = '/welcome'
+      navigate('/welcome', { replace: true })
     } catch (err: any) {
       setError(err.message)
     }
