@@ -1,6 +1,6 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import App from './App'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -14,8 +14,9 @@ import TransactionsPage from './pages/TransactionsPage'
 import NimAi from './pages/NimAi'
 
 function PrivateRoute({ children }: { children: JSX.Element }) {
+  const location = useLocation()
   const token = localStorage.getItem('token')
-  return token ? children : <Navigate to="/login" replace />
+  return token ? children : <Navigate to="/login" replace state={{ from: location }} />
 }
 
 function PublicOnlyRoute({ children }: { children: JSX.Element }) {
@@ -45,3 +46,7 @@ createRoot(document.getElementById('root')!).render(
   </React.StrictMode>
 )
 
+import './index.css'
+import './styles.css'
+document.documentElement.classList.add('dark')
+document.body.classList.add('bg-neutral-950','text-neutral-100')

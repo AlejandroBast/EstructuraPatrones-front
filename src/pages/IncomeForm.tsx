@@ -23,20 +23,26 @@ export default function IncomeForm() {
   }
 
   return (
-    <div>
-      <h2>Registrar Ingreso</h2>
-      <form onSubmit={onSubmit} style={{ display: 'grid', gap: 8 }}>
-        <input type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="Monto" required />
-        <input type="date" value={date} onChange={e => setDate(e.target.value)} required />
-        <input value={description} onChange={e => setDescription(e.target.value)} placeholder="Descripción" required />
-        <button type="submit">Agregar</button>
-      </form>
-      {msg && <p>{msg}</p>}
-      <ul>
-        {items.map((it, i) => (
-          <li key={i}>{String(it.date)} - {String(it.amount)} - {it.description} ({it.kind})</li>
-        ))}
-      </ul>
+    <div className="split">
+      <div className="panel">
+        <h3 className="panel-title">Registrar Ingreso</h3>
+        <form onSubmit={onSubmit} className="form">
+          <input className="input" type="number" value={amount} onChange={e => setAmount(e.target.value)} placeholder="Monto" required />
+          <input className="input" type="date" value={date} onChange={e => setDate(e.target.value)} required />
+          <input className="input" value={description} onChange={e => setDescription(e.target.value)} placeholder="Descripción" required />
+          <button className="btn btn-primary" type="submit">Agregar Ingreso</button>
+        </form>
+        {msg && <p className={msg.includes('Error')? 'error':'success'}>{msg}</p>}
+      </div>
+      <div className="panel">
+        <h3 className="panel-title">Ingresos Recientes</h3>
+        <ul className="muted" style={{display:'grid',gap:6,paddingLeft:18}}>
+          {items.length===0 && <li>No hay datos</li>}
+          {items.map((it,i)=> (
+            <li key={i}>{String(it.date)} — ${String(it.amount)} — {it.description}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
