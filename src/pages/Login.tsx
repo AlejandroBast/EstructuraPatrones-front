@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate, useLocation, Link } from 'react-router-dom'
 import { postJson } from '../api/client'
+import './Login.css'
 
 export default function Login() {
   const [email, setEmail] = useState('')
@@ -27,24 +28,47 @@ export default function Login() {
   }
 
   return (
-    <div className="split">
-      <div className="panel">
-        <Link className="nav-link" to="/inicio">← Volver al inicio</Link>
-        <div style={{display:'grid',gap:12,marginTop:12}}>
-          <h2 style={{margin:0}}>Asistente Financiero</h2>
-          <p className="muted">Ingresa tus credenciales para acceder a tu dashboard</p>
-          <form onSubmit={onSubmit} className="form">
-            <input className="input" type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="tu@email.com" required />
-            <input className="input" type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Contraseña" required />
-            <button className="btn btn-primary" type="submit">Iniciar Sesión</button>
-          </form>
-          {error && <p className="error">{error}</p>}
-          <p className="muted">¿No tienes cuenta? <Link className="nav-link" to="/register">Regístrate aquí</Link></p>
-        </div>
+    <div className="login-container">
+      <div className="login-card">
+        <h2 className="login-title">ThinkCash</h2>
+        <p className="login-sub">Ingresa tus credenciales</p>
+
+        <form onSubmit={onSubmit} className="form">
+          <input
+            className="input"
+            type="email"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
+            placeholder="Correo electrónico"
+            required
+          />
+
+          <input
+            className="input"
+            type="password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Contraseña"
+            required
+          />
+
+          <button className="btn-simple" type="submit">
+            Iniciar Sesión
+          </button>
+        </form>
+
+        {error && <p className="error">{error}</p>}
+
+        <p className="register-text">
+          ¿No tienes cuenta? <Link to="/register" className="register-link">Crear cuenta</Link>
+        </p>
+
+        <Link className="back-btn" to="/inicio">← Volver al inicio</Link>
       </div>
-      <div className="panel">
-        <h3 className="panel-title">Beneficios</h3>
-        <ul className="muted" style={{display:'grid',gap:8,paddingLeft:18}}>
+
+      <div className="benefits-section">
+        <h3>Beneficios</h3>
+        <ul>
           <li>Dashboard claro y simple</li>
           <li>Control de gastos e ingresos</li>
           <li>Microgastos diarios</li>
