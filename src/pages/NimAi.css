@@ -1,0 +1,347 @@
+/* NimAi Container */
+.nimai-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  min-height: calc(100vh - 120px);
+}
+
+.nimai-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.nimai-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.nimai-subtitle {
+  color: #a0aec0;
+  font-size: 1.1rem;
+}
+
+/* Error Alert */
+.error-alert {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #fca5a5;
+}
+
+.error-icon {
+  font-size: 1.5rem;
+}
+
+/* Card Dark */
+.card-dark {
+  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.card-dark:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  margin-bottom: 1.5rem;
+}
+
+.panel-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.panel-subtitle {
+  font-size: 0.95rem;
+  color: #a0aec0;
+}
+
+/* Recommendations Panel */
+.recommendations-panel {
+  margin-bottom: 2rem;
+}
+
+.recommendations-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.recommendation-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(124, 92, 255, 0.05);
+  border: 1px solid rgba(124, 92, 255, 0.15);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.recommendation-item:hover {
+  background: rgba(124, 92, 255, 0.08);
+  border-color: rgba(124, 92, 255, 0.25);
+  transform: translateX(4px);
+}
+
+.recommendation-bullet {
+  min-width: 8px;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, #a78bfa, #c084fc);
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
+
+.recommendation-text {
+  color: #e5e7eb;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state p {
+  color: #a0aec0;
+  font-size: 1rem;
+}
+
+.empty-state-small {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.empty-state-small p {
+  color: #a0aec0;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Analytics Grid */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+}
+
+.analytics-card {
+  height: fit-content;
+}
+
+/* Months List */
+.months-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.month-card {
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.month-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.month-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.month-icon {
+  font-size: 1.5rem;
+}
+
+.month-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.month-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.month-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat-label-small {
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
+
+.stat-value-small {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.stat-value-small.income {
+  color: #22c55e;
+}
+
+.stat-value-small.expense {
+  color: #ef4444;
+}
+
+.stat-value-small.balance-positive {
+  color: #3b82f6;
+}
+
+.stat-value-small.balance-negative {
+  color: #f59e0b;
+}
+
+/* Trends List */
+.trends-list {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.trend-item {
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.trend-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.trend-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.trend-category {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.trend-badge {
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.trend-up {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.trend-down {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.trend-stable {
+  background: rgba(168, 139, 250, 0.15);
+  color: #a78bfa;
+  border: 1px solid rgba(168, 139, 250, 0.3);
+}
+
+.trend-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.comparison-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.comparison-label {
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
+
+.comparison-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.comparison-divider {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .nimai-title {
+    font-size: 2rem;
+  }
+
+  .month-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .trend-comparison {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .comparison-divider {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}
