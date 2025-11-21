@@ -1,0 +1,95 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+  max-width: 900px;
+}
+
+.welcome-header {
+  text-align: center;
+  padding: var(--spacing-2xl) 0;
+}
+
+.welcome-header h1 {
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--primary-700);
+  font-size: 2.5rem;
+}
+
+.welcome-header p {
+  margin: 0;
+  color: var(--neutral-600);
+  font-size: 1.1rem;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.intro-text {
+  text-align: center;
+  color: var(--neutral-700);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.quick-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: white;
+  border: 2px solid var(--neutral-200);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.quick-link-card:hover {
+  border-color: var(--primary-500);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.link-icon {
+  font-size: 2.5rem;
+}
+
+.quick-link-card h3 {
+  margin: 0;
+  color: var(--primary-700);
+  font-size: 1.1rem;
+}
+
+.quick-link-card p {
+  margin: 0;
+  color: var(--neutral-600);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.welcome-actions {
+  text-align: center;
+  padding-top: var(--spacing-xl);
+}
+
+.btn-logout {
+  background-color: var(--danger);
+  color: white;
+  padding: var(--spacing-md) var(--spacing-2xl);
+  font-weight: 600;
+}
+
+.btn-logout:hover {
+  background-color: #dc2626;
+}

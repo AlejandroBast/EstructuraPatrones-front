@@ -1,0 +1,141 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.form-header {
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-header h1 {
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--neutral-900);
+}
+
+.form-header p {
+  margin: 0;
+  color: var(--neutral-600);
+}
+
+.form-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.form-group.checkbox {
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-group.checkbox input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: var(--neutral-700);
+  font-size: 0.9rem;
+}
+
+.btn-submit {
+  background-color: var(--primary-600);
+  color: white;
+  padding: var(--spacing-md);
+  font-weight: 600;
+  margin-top: var(--spacing-md);
+}
+
+.btn-submit:hover:not(:disabled) {
+  background-color: var(--primary-700);
+}
+
+.transactions-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.transactions-section h2 {
+  margin: 0 0 var(--spacing-lg) 0;
+  color: var(--primary-700);
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  background-color: var(--neutral-50);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--primary-500);
+}
+
+.transaction-info {
+  flex: 1;
+}
+
+.transaction-desc {
+  margin: 0;
+  font-weight: 600;
+  color: var(--neutral-900);
+}
+
+.transaction-date {
+  margin: var(--spacing-xs) 0 0 0;
+  font-size: 0.85rem;
+  color: var(--neutral-500);
+}
+
+.transaction-amount {
+  font-weight: 700;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  margin-left: var(--spacing-lg);
+}
+
+.income-amount {
+  color: var(--accent-600);
+}
+
+.expense-amount {
+  color: var(--danger);
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  color: var(--neutral-500);
+}
+
+@media (max-width: 1024px) {
+  .form-layout {
+    grid-template-columns: 1fr;
+  }
+}

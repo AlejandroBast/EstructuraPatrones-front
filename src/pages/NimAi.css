@@ -1,0 +1,20 @@
+/* NimAi styles */
+.nimai { padding: 24px; }
+.nimai-header { margin-bottom: 16px; }
+.nimai .subtitle { color: var(--neutral-600); }
+.tips-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.tip-card { background: white; border: 1px solid var(--neutral-200); border-radius: var(--radius-md); padding: 12px; box-shadow: var(--shadow-sm); }
+.months-table { display: grid; gap: 8px; }
+.months-table .row { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; padding: 8px; background: white; border: 1px solid var(--neutral-200); border-radius: var(--radius-sm); }
+.months-table .header { font-weight: 600; background: var(--neutral-100); }
+.trends-list { display: grid; gap: 8px; }
+.trend-item { display: flex; align-items: center; gap: 8px; padding: 8px; background: white; border: 1px solid var(--neutral-200); border-radius: var(--radius-sm); }
+.badge { background: var(--primary-100); color: var(--primary-700); padding: 2px 8px; border-radius: var(--radius-sm); font-size: 0.85rem; }
+.trend.up { color: #10b981; }
+.trend.down { color: #ef4444; }
+.trend.equal { color: var(--neutral-600); }
+.detail { color: var(--neutral-600); margin-left: auto; }
+.chart-container { width: 100%; height: 300px; }
+.recommendations-list { list-style: none; padding: 0; margin: 0; }
+.recommendation-item { display: flex; gap: 12px; align-items: center; padding: 8px; border-bottom: 1px solid var(--neutral-200); }
+.saving { margin-left: auto; color: var(--accent-600); }
