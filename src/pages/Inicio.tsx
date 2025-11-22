@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import "./Inicio.css"
 
@@ -7,10 +8,11 @@ export default function Inicio() {
   const navigate = useNavigate()
   const isAuthed = !!localStorage.getItem("token")
 
-  if (isAuthed) {
-    navigate("/welcome")
-    return null
-  }
+  useEffect(() => {
+    if (isAuthed) {
+      navigate("/welcome", { replace: true })
+    }
+  }, [isAuthed, navigate])
 
   return (
     <div className="inicio-container">
